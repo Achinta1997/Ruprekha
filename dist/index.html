@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hello-Tailwind</title>
+</head>
+
+<body>
+    <!-- navigation bar starts -->
+    <nav class="bg-gray-900 text-white flex justify-between max-h-50">
+        <div class="flex justify-center items-center">
+            <p class="font-title text-3xl p-2">Ruprekha</p>
+            <img src="asset/mandala1.png" alt="" class="w-10">
+        </div>
+
+        <ul class="md:flex md:space-x-10 py-5 justify-center items-center font-nav text-2xl md:pr-10 hidden"
+            id="nav-menu">
+            <li class="py-3">Home</li>
+            <li class="py-3">Products</li>
+            <li class="py-3">Meet the Artist</li>
+            <li class="py-3">Contact</li>
+        </ul>
+
+        <div class="md:hidden p-4 font-bold" id="hamburger">
+            <p>&#9776;</p>
+        </div>
+        <div class="hidden md:hidden p-4" id="cross">
+            <p>&#10008;</p>
+        </div>
+    </nav>
+    <!-- navigation bar ends -->
+    <main>
+        <!-- first page banner -->
+        <section class="p-5 bg-slate-100">
+            <div class="flex flex-col md:flex-row justify-center md:items-center gap-2">
+                <div>
+                    <p class="text-3xl font-semibold">Flex in a traditional way !</p>
+                    <p class="text-gray-700">Get 40% off on all products..</p>
+                </div>
+                <img class="w-70" src="./asset/model.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+<script>
+    document.getElementById("hamburger").onclick = function () {
+        document.getElementById("nav-menu").classList.remove("hidden");
+        document.getElementById("nav-menu").classList.add("flex", "flex-col");
+        document.getElementById("hamburger").classList.add("hidden");
+        document.getElementById("cross").classList.remove("hidden");
+    }
+
+    document.getElementById("cross").onclick = function () {
+        document.getElementById("nav-menu").classList.add("hidden");
+        document.getElementById("nav-menu").classList.remove("flex", "flex-col");
+        document.getElementById("hamburger").classList.remove("hidden");
+        document.getElementById("cross").classList.add("hidden");
+    }
+</script>
+
+</html>

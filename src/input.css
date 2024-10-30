@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Cabin+Sketch&family=Cookie&family=Cormorant+Garamond&family=Dancing+Script:wght@500&family=Merriweather:wght@300&family=Noto+Sans+Bengali&family=Sacramento&family=Taviraj&family=Tiro+Bangla&family=Zeyada&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
