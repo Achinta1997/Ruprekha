@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'segoe': ['Times New Roman'],
-        'title': ['Artifika', 'sans-serif'],
-        'nav': ['Cookie', 'sans-serif']
+        'title': ['Berkshire Swash', 'sans-serif'],
+        'nav': ['Cinzel', 'sans-serif'],
+        'body': ['Poppins', 'serif']
       }
     },
 

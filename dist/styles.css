@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Cabin+Sketch&family=Cookie&family=Cormorant+Garamond&family=Dancing+Script:wght@500&family=Merriweather:wght@300&family=Noto+Sans+Bengali&family=Sacramento&family=Taviraj&family=Tiro+Bangla&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Berkshire+Swash&family=Cabin+Sketch&family=Cardo:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400..900&family=Comfortaa:wght@300..700&family=Cookie&family=Cormorant+Garamond&family=Dancing+Script:wght@500&family=Merriweather:wght@300&family=Noto+Sans+Bengali&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Taviraj&family=Tiro+Bangla&family=Zeyada&display=swap');
 
 /*
 ! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
@@ -526,8 +526,24 @@ video {
   display: none;
 }
 
+.h-1{
+  height: 0.25rem;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
 .w-10{
   width: 2.5rem;
+}
+
+.w-36{
+  width: 9rem;
+}
+
+.w-24{
+  width: 6rem;
 }
 
 .flex-col{
@@ -548,6 +564,27 @@ video {
 
 .gap-2{
   gap: 0.5rem;
+}
+
+.border-b-4{
+  border-bottom-width: 4px;
+}
+
+.border-b-8{
+  border-bottom-width: 8px;
+}
+
+.border-b-2{
+  border-bottom-width: 2px;
+}
+
+.border-solid{
+  border-style: solid;
+}
+
+.border-black{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-gray-900{
@@ -582,12 +619,21 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.font-body{
+  font-family: Poppins, serif;
+}
+
 .font-nav{
-  font-family: Cookie, sans-serif;
+  font-family: Cinzel, sans-serif;
 }
 
 .font-title{
-  font-family: Artifika, sans-serif;
+  font-family: Berkshire Swash, sans-serif;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-2xl{
@@ -595,9 +641,9 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold{
