@@ -535,10 +535,6 @@ video {
   height: 0.25rem;
 }
 
-.h-2{
-  height: 0.5rem;
-}
-
 .w-1\/2{
   width: 50%;
 }
@@ -775,36 +771,6 @@ video {
     background-color: rgb(51 65 85 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-gray-800{
-    --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-slate-800{
-    --tw-bg-opacity: 1;
-    background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-slate-900{
-    --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-gray-700{
-    --tw-bg-opacity: 1;
-    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-black{
-    --tw-bg-opacity: 1;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-cyan-950{
-    --tw-bg-opacity: 1;
-    background-color: rgb(8 51 68 / var(--tw-bg-opacity));
-  }
-
   .dark\:text-slate-200{
     --tw-text-opacity: 1;
     color: rgb(226 232 240 / var(--tw-text-opacity));
@@ -827,18 +793,6 @@ video {
 
   .md\:w-72{
     width: 18rem;
-  }
-
-  .md\:w-2{
-    width: 0.5rem;
-  }
-
-  .md\:w-10{
-    width: 2.5rem;
-  }
-
-  .md\:w-20{
-    width: 5rem;
   }
 
   .md\:flex-row{
@@ -867,13 +821,13 @@ video {
     padding-right: 2.5rem;
   }
 
-  .md\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .md\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 }
