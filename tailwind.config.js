@@ -6,7 +6,8 @@ module.exports = {
       fontFamily: {
         'title': ['Berkshire Swash', 'sans-serif'],
         'nav': ['Cinzel', 'sans-serif'],
-        'body': ['Poppins', 'serif']
+        'body': ['Poppins', 'serif'],
+        'bio': ['Cookie', 'serif'],
       }
     },
 
