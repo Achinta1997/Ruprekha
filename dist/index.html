@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Ruprekha</title>
+    <script src="https://kit.fontawesome.com/b86e115d0a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- navigation bar starts -->
-    <nav class="bg-gray-900 text-white flex justify-between max-h-50">
+    <nav class="bg-gray-900 text-white flex justify-between max-h-50" id="home">
         <div class="flex justify-center items-center">
             <p class="font-title text-3xl p-2">Ruprekha</p>
             <img src="asset/mandala1.png" alt="" class="w-10">
         </div>
 
         <ul class="md:flex md:space-x-10 py-5 justify-center items-center font-nav md:pr-10 hidden" id="nav-menu">
-            <li class="py-3">Home</li>
-            <li class="py-3">Products</li>
-            <li class="py-3">Meet the Artist</li>
-            <li class="py-3">Contact</li>
+            <li class="py-3"><a href="#home">Home</a></li>
+            <li class="py-3"><a href="#products">Products</a></li>
+            <li class="py-3"><a href="#meet-the-artist">Meet the Artist</a></li>
+            <li class="py-3"><a href="#contact">Contact</a></li>
         </ul>
 
         <div class="md:hidden p-4 font-bold" id="hamburger">
@@ -46,7 +47,7 @@
         <!-- first banner ends -->
 
         <!-- product section starts -->
-        <section>
+        <section id="products">
             <div class="p-4 dark:bg-gray-900 dark:text-white">
                 <!-- product section header -->
                 <div class="flex flex-col justify-center items-center">
@@ -280,7 +281,7 @@
         <!-- product section ends -->
 
         <!-- meet the artist section starts -->
-        <section class="p-4 dark:bg-gray-900 dark:text-white">
+        <section class="p-4 dark:bg-gray-900 dark:text-white" id="meet-the-artist">
             <!-- header  -->
             <div class="flex flex-col justify-center items-center">
                 <p class="font-body text-3xl">Meet the Artist</p>
@@ -294,18 +295,36 @@
                     <p class="text-center text-2xl font-nav font-medium p-2 md:text-5xl">~ Manisha Chanda ~</p>
                 </div>
                 <div class="p-2 font-bio text-2xl md:text-4xl">
-                    <p>" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia perspiciatis placeat
-                        labore rerum
-                        dignissimos voluptate iure magni architecto ducimus voluptatibus, delectus asperiores ut
-                        nesciunt aliquid, autem atque dolore odit expedita maxime accusamus voluptas! Nam nulla dolorum
-                        enim maxime, eius officiis praesentium, necessitatibus voluptatibus adipisci aliquid nihil
-                        incidunt quia vitae maiores. "</p>
+                    <p>" Hi, I am Manisha. I am from Paschim Medinipur district of West Bengal. I am a zoology student
+                        who love arts. I love to do artistics things because they feed my soul. Whenever I receive
+                        an order or just I feel like doing, I just open up my heart to draw and paint and cannot stop
+                        myself completing it in just as perfect as it can be."</p>
                 </div>
             </div>
         </section>
 
     </main>
-    <footer></footer>
+    <footer class="p-2 dark:bg-black dark:text-white">
+        <div class="flex justify-center items-center">
+            <p class="font-title text-2xl p-2">Ruprekha</p>
+            <img src="asset/mandala1.png" alt="" class="w-7">
+        </div>
+        <div class="flex flex-col justify-center items-center font-body font-medium">
+            <p class="my-2 p-1 rounded-lg bg-blue-500"><a href="#home">Home</a></p>
+            <p class="my-2 p-1 rounded-lg bg-blue-500"><a href="#products">Products</a></p>
+            <p class="my-2 p-1 rounded-lg bg-blue-500"><a href="#meet-the-artist">Meet the Artist</a></p>
+        </div>
+        <div class="flex justify-center items-center py-3 font-body" id="contact">
+            <p>For any order, contact us :</p>
+        </div>
+        <div class="flex gap-10 justify-center items-center text-2xl">
+            <a href="https://www.facebook.com/profile.php?id=100071634902560&mibextid=ZbWKwL" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/artsy_manisha01?igsh=MWRjbzh6YWkzbTVlZw==" target="_blank">
+                <i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="text-center pt-4 font-serif"><i class="fa-regular fa-copyright"></i> ruprekha</p>
+    </footer>
 </body>
 
 <script>
